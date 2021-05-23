@@ -43,11 +43,11 @@
  */
 
 /* Refer following tutorial and API documentation to know how to create a user token
- * https://mesibo.com/documentation/tutorials/first-app/ 
+ * https://mesibo.com/documentation/tutorials/first-app/
  */
-var MESIBO_ACCESS_TOKEN = "";
+var MESIBO_ACCESS_TOKEN = "qnikxyfiepigw4cmgu2dfzh3pnom5dinqt4ebo22vzgeq3yzcw5itrotubvw4plf";
 /* App ID used to create a user token. */
-var MESIBO_APP_ID = "web";
+var MESIBO_APP_ID = "6854";
 
 /* If you are hosting Mesibo backend on your own server, change this accordingly.
  * Refer https://github.com/mesibo/messenger-app-backend
@@ -71,16 +71,16 @@ if(!isContactSync){
 	 * in list of available users
 	 */
 	var MESIBO_LOCAL_CONTACTS =[
-	{	
-		 'address' : '91XXXXXXXXX'
-		,'groupid' : 0	 
+	{
+		 'address' : '+233557392027'
+		,'groupid' : 0
 		,'picture' : 'images/profile/default-profile-icon.jpg'
-		,'name'    : 'Contact Name'
+		,'name'    : 'Kelvin Morrison'
 		,'status'  : 'Contact status'
 	},
-	
+
 	{	 'address' : ''
-		,'groupid' : 1234 	 
+		,'groupid' : 1234
 		,'picture' : 'images/profile/default-group-icon.jpg'
 		,'name'    : 'Group Name'
 	},
@@ -89,16 +89,16 @@ if(!isContactSync){
 }
 
 /* (Optional) Phone numbers of contacts who are using mesibo,
- * can be used for synchronization in getcontacts API 
+ * can be used for synchronization in getcontacts API
  */
 const MESIBO_PHONES_ARRAY=[];
 
 
 /* Set Display Avatar and destination address for popup */
-const POPUP_DISPLAY_NAME = "Mesibo"
+const POPUP_DISPLAY_NAME = "Morrison"
 const POPUP_DISPLAY_PICTURE = "images/profile/default-profile-icon.jpg"
 /* A destination where the popup demo app will send message or make calls */
-const POPUP_DESTINATION_USER = 'js_user';
+const POPUP_DESTINATION_USER = '+233557392027';
 
 /* Debug Mode Configuration */
 isDebug = true ;// toggle this to turn on / off for global control
